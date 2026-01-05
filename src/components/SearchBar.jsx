@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Search} from 'lucide-react';
 
-
 const SearchBar = ({ onSearch }) => {
   const [query, setQuery] = useState('');
 

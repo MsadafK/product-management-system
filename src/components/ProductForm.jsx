@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { X, Package } from 'lucide-react';
+
 
 const ProductForm = ({ product, onSave, onClose }) => {
   const [formData, setFormData] = useState({

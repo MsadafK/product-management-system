@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { Edit2, Package, Trash2 } from 'lucide-react';
+
 
 const ProductTable = ({ products, onEdit, onDelete }) => {
   const [imgErrors, setImgErrors] = useState({});
